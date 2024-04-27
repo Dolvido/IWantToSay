@@ -17,7 +17,7 @@ DungeonFortress is a chatbot built using the Langchain framework and the Anthrop
 
 - Python 3.x
 - Langchain framework
-- Anthropic API access
+- Local ollama install
 
 ## Installation
 
