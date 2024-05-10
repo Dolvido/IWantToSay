@@ -2,7 +2,7 @@
 
 # IWantToSay Chatbot
 
-DungeonFortress is a chatbot built using the Langchain framework and the Anthropic API. It allows users to interact with a character named Thildiriel, a wise and powerful Moon Elf druid, who can engage in general conversation and answer specific questions based on the provided context.
+IWantToSay is a chatbot built using the Langchain framework and the Anthropic API. It allows users to interact with a character named Thildiriel, a wise and powerful Moon Elf druid, who can engage in general conversation and answer specific questions based on the provided context.
 
 ## Features
 
@@ -18,13 +18,13 @@ DungeonFortress is a chatbot built using the Langchain framework and the Anthrop
 
 - Python 3.x
 - Langchain framework
-- Local ollama install
+- Local ollama install w/ local model chosen (llama3 in the code example)
 
 ## Installation
 
 1. Clone the repository:
    ```
-   git clone https://github.com/your-username/DungeonFortress.git
+   git clone https://github.com/dolvido/IWantToSay.git
    ```
 
 2. Install the required dependencies:
@@ -60,6 +60,6 @@ This project is licensed under the [MIT License](LICENSE).
 ## Acknowledgments
 
 - [Langchain](https://github.com/hwchase17/langchain) - The framework used for building the chatbot.
-- [Anthropic](https://www.anthropic.com/) - The API used for decision-making and language modeling.
+- [Ollama](https://www.ollama.com/) - The local language models used for decision-making and language modeling.
 
 Feel free to customize and expand upon this README based on your specific project details and requirements.
