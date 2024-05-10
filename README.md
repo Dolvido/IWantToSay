@@ -1,6 +1,6 @@
 # IWantToSay
 
-# DungeonFortress Chatbot
+# IWantToSay Chatbot
 
 DungeonFortress is a chatbot built using the Langchain framework and the Anthropic API. It allows users to interact with a character named Thildiriel, a wise and powerful Moon Elf druid, who can engage in general conversation and answer specific questions based on the provided context.
 
@@ -12,6 +12,7 @@ DungeonFortress is a chatbot built using the Langchain framework and the Anthrop
 - Uses the Anthropic API to decide the appropriate response type based on the user's query.
 - Stores conversation history in JSON files and uses Chroma vector store for efficient retrieval.
 - Utilizes the Ollama language model for generating responses.
+- Context aware content generation, leverages latent knowledge coded into the large language model you are using.
 
 ## Prerequisites
 
