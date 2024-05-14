@@ -2,14 +2,16 @@
 
 # IWantToSay Chatbot
 
-IWantToSay is a chatbot built using the Langchain framework and the Anthropic API. It allows users to interact with a character named Thildiriel, a wise and powerful Moon Elf druid, who can engage in general conversation and answer specific questions based on the provided context.
+IWantToSay is a chatbot built using the Langchain framework and the Anthropic API. It allows users to interact with Alex, who can engage in general conversation and answer specific questions based on the provided context.
 
 ## Features
 
 - Supports two types of responses:
   - Conversation chain (CONV): For general conversational questions, greetings, or creative responses.
   - Retrieval-augmented-generation chain (RAG): For specific information, memories, or events related to the context.
-- Uses the Anthropic API to decide the appropriate response type based on the user's query.
+  - Tool usage (TOOL)
+  - Memory (UPDATE)
+
 - Stores conversation history in JSON files and uses Chroma vector store for efficient retrieval.
 - Utilizes the Ollama language model for generating responses.
 - Context aware content generation, leverages latent knowledge coded into the large language model you are using.
