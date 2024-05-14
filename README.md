@@ -61,5 +61,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - [Langchain](https://github.com/hwchase17/langchain) - The framework used for building the chatbot.
 - [Ollama](https://www.ollama.com/) - The local language models used for decision-making and language modeling.
-
-Feel free to customize and expand upon this README based on your specific project details and requirements.
