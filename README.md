@@ -36,9 +36,9 @@ IWantToSay is a chatbot built using the Langchain framework and the Anthropic AP
 
 ## Usage
 
-1. Run the `switcher.py` script:
+1. Run the `main.py` script:
    ```
-   python switcher.py
+   python main.py
    ```
 
 2. Enter a query when prompted. The chatbot will determine the appropriate response type (CONV or RAG) based on the query and generate a response accordingly.
