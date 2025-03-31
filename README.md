@@ -2,7 +2,7 @@
 
 # IWantToSay Chatbot
 
-IWantToSay is a chatbot built using the Langchain framework and the Anthropic API. It allows users to interact with Alex, who can engage in general conversation and answer specific questions based on the provided context.
+IWantToSay is a chatbot built using the Langchain framework and the Ollama family of LLMs. It allows users to interact with Alex, who can engage in general conversation and answer specific questions based on the provided context.
 
 ## Features
 
